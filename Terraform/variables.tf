@@ -13,10 +13,6 @@ variable "source_dir" {
   default = "files"
 }
 
-variable "filename" {
-  type    = string
-  default = "lambda_api_gateway.zip"
-}
 variable "function_name" {
   type    = string
   default = "lambda_health_check"

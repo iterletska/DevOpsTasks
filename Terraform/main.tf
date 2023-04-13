@@ -9,7 +9,6 @@ module "lambda-api-gateway" {
   providers = {
          aws = aws.prod
      }
-  filename = var.filename
   function_name = var.function_name
   handler = var.handler
   runtime = var.runtime
