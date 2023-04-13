@@ -1,0 +1,2 @@
+This Terraform module provisions an AWS Lambda function and an API Gateway endpoint that triggers the Lambda function.
+Lambda validates the URLs specified in it, as well as the URLs that may be specified in the API Gateway request body.

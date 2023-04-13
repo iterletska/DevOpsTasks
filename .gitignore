@@ -1,0 +1,9 @@
+.kube/*crt
+.idea
+.vscode
+.DS_Store
+
+# Terraform related
+**/.terraform/*
+*.tfstate
+*.tfstate.*

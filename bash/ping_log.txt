@@ -1,0 +1,7 @@
+
+2023-04-11 14:17:05 127.0.0.1 - 4 packets sent, 4 packets received, 0% packets are lost, SUCCESS
+2023-04-11 14:17:05 google.com - 4 packets sent, 4 packets received, 0% packets are lost, SUCCESS
+2023-04-11 14:17:05 dou.ua - 4 packets sent, 4 packets received, 0% packets are lost, SUCCESS
+2023-04-11 16:03:09 127.0.0.1 - 4 packets sent, 4 packets received, 0% packets are lost, SUCCESS
+2023-04-11 16:03:09 google.com - 4 packets sent, 4 packets received, 0% packets are lost, SUCCESS
+2023-04-11 16:03:09 dou.ua - 4 packets sent, 4 packets received, 0% packets are lost, SUCCESS

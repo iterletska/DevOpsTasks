@@ -1,0 +1,28 @@
+{
+	"Version": "2012-10-17",
+	"Id": "Policy1681293039795",
+	"Statement": [
+		{
+			"Sid": "S3AccessForlambda",
+			"Effect": "Allow",
+			"Principal": {
+				"AWS": [
+					"arn:aws:iam::883126580074:root",
+					"arn:aws:iam::883126580074:role/service-role/S3CreationEvents-role-40cp91fi"
+				]
+			},
+			"Action": [
+				"s3:DeleteObject",
+				"s3:GetObject",
+				"s3:ListBucket",
+				"s3:PutObject",
+				"s3:GetObjectTagging",
+				"s3:PutBucketTagging"
+			],
+			"Resource": [
+				"arn:aws:s3:::iterlebucket",
+				"arn:aws:s3:::iterlebucket/*"
+			]
+		}
+	]
+}
